@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+html{
+    user-select: none;
+  }
+
+
+
+/***WhenItLoadingh***/
+.loading{
+  cursor: wait;
+}
+
+
+
+
+/***操作區***/
+img{
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.nav {
+  background: rgb(120, 155, 103);
+  display: flex;
+  align-items: center;
+  user-select: none;
+  -webkit-user-drag: none;
+  height: 16vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 130px;
+}
+.bar_a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 0 24px;
+  font-size: 33px;
+  padding: 9px 24px;
+  border: 8px solid transparent;
+  border-radius: 32px;
+  transition: .13s;
+  position: relative;
+  user-select: none;
+  -webkit-user-drag: none;
+  white-space: nowrap;
+  left: 10px;
+  user-select: none;
+}
+.bar_a#bar_a2 {
+    border: 8px solid rgb(169, 212, 149);
+    
+  }
+  .bar_a:hover {
+    border-color: rgb(133, 172, 117);
+  }
+  #newlogo{
+    transform: rotate(-0.4deg);
+    width: 10.2vw;
+    height: 10.2vw;
+    position: relative;
+    z-index: 3;
+    left: 44.75vw;
+    top: 61.3px;
+    user-select: none;
+  }
